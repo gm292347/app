@@ -1,0 +1,664 @@
+﻿
+Warning: SplFileInfo::openFile(/var/www/html/clare/app/tmp/cache/persistent/myapp_cake_core_cake_console_zh-cn): failed to open stream: Permission denied in /var/www/html/clare/lib/Cake/Cache/Engine/FileEngine.php on line 355
+
+Warning: SplFileInfo::openFile(/var/www/html/clare/app/tmp/cache/persistent/myapp_cake_core_cake_console_zh-cn): failed to open stream: Permission denied in /var/www/html/clare/lib/Cake/Cache/Engine/FileEngine.php on line 355
+
+Warning: _cake_core_ cache was unable to write 'cake_console_zh-cn' to File cache in /var/www/html/clare/lib/Cake/Cache/Cache.php on line 325
+
+[36mWelcome to CakePHP v2.4.6 Console[0m
+---------------------------------------------------------------
+App : app
+Path: /var/www/html/clare/app/
+---------------------------------------------------------------
+/app/Console/Command/UploadincomeShell.php (line 496)
+########## DEBUG ##########
+array(
+	'date' => array(
+		'column' => (int) 0,
+		'row' => (int) 6
+	),
+	'policy_no' => array(
+		'column' => (int) 1,
+		'row' => (int) 6
+	),
+	'plan_currency' => array(
+		'column' => (int) 2,
+		'row' => (int) 6
+	),
+	'exchange_rate' => array(
+		'column' => (int) 3,
+		'row' => (int) 6
+	),
+	'rel_currency' => array(
+		'column' => (int) 4,
+		'row' => (int) 6
+	),
+	'amount' => array(
+		'column' => (int) 5,
+		'row' => (int) 6
+	),
+	'consultant' => array(
+		'column' => (int) 6,
+		'row' => (int) 6
+	),
+	'type' => array(
+		'column' => (int) 7,
+		'row' => (int) 6
+	),
+	'remarks' => array(
+		'column' => (int) 8,
+		'row' => (int) 6
+	),
+	'give_bonus' => array(
+		'column' => (int) 9,
+		'row' => (int) 6
+	),
+	'consultant_get_bonus' => array(
+		'column' => (int) 10,
+		'row' => (int) 6
+	)
+)
+###########################
+/app/Console/Command/UploadincomeShell.php (line 505)
+########## DEBUG ##########
+array(
+	(int) 7 => array(
+		'date' => (float) 42205,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 738.441,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<1st - 3rd month>: 330*74.59%*3',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 8 => array(
+		'date' => (float) 42297,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<4th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 9 => array(
+		'date' => (float) 42328,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<5th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 10 => array(
+		'date' => (float) 42358,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<6th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 11 => array(
+		'date' => (float) 42389,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<7th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 12 => array(
+		'date' => (float) 42420,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<8th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 13 => array(
+		'date' => (float) 42449,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<9th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 14 => array(
+		'date' => (float) 42480,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<10th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 15 => array(
+		'date' => (float) 42510,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<11th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 16 => array(
+		'date' => (float) 42541,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 246.147,
+		'consultant' => 'frank',
+		'type' => 'new business',
+		'remarks' => 'New Business<12th month>: 330*74.59%',
+		'give_bonus' => (float) 1,
+		'consultant_get_bonus' => 'frank'
+	),
+	(int) 17 => array(
+		'date' => (float) 42571,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<13th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 18 => array(
+		'date' => (float) 42602,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<14th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 19 => array(
+		'date' => (float) 42633,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<15th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 20 => array(
+		'date' => (float) 42663,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<16th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 21 => array(
+		'date' => (float) 42694,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<17th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 22 => array(
+		'date' => (float) 42724,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<18th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 23 => array(
+		'date' => (float) 42755,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<19th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 24 => array(
+		'date' => (float) 42786,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<20th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 25 => array(
+		'date' => (float) 42814,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<21st month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 26 => array(
+		'date' => (float) 42845,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<22nd month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 27 => array(
+		'date' => (float) 42875,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<23rd month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 28 => array(
+		'date' => (float) 42906,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 39.6,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '2nd Year Renewal<24th month>:330*12%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 29 => array(
+		'date' => (float) 42936,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<25th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 30 => array(
+		'date' => (float) 42967,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<26th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 31 => array(
+		'date' => (float) 42998,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<27th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 32 => array(
+		'date' => (float) 43028,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<28th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 33 => array(
+		'date' => (float) 43059,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<29th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 34 => array(
+		'date' => (float) 43089,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<30th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 35 => array(
+		'date' => (float) 43120,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<31th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 36 => array(
+		'date' => (float) 43151,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<32th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 37 => array(
+		'date' => (float) 43179,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<33th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 38 => array(
+		'date' => (float) 43210,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<34th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 39 => array(
+		'date' => (float) 43240,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<35th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 40 => array(
+		'date' => (float) 43271,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '3rd Year Renewal<36th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 41 => array(
+		'date' => (float) 43301,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<37th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 42 => array(
+		'date' => (float) 43332,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<38th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 43 => array(
+		'date' => (float) 43363,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<39th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 44 => array(
+		'date' => (float) 43393,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<40th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 45 => array(
+		'date' => (float) 43424,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<41th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 46 => array(
+		'date' => (float) 43454,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<42th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 47 => array(
+		'date' => (float) 43485,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<43th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 48 => array(
+		'date' => (float) 43516,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<44th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 49 => array(
+		'date' => (float) 43544,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<45th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 50 => array(
+		'date' => (float) 43575,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<46th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 51 => array(
+		'date' => (float) 43605,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<47th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	),
+	(int) 52 => array(
+		'date' => (float) 43636,
+		'policy_no' => '28-0844854-0',
+		'plan_currency' => 'HKD',
+		'exchange_rate' => (float) 1,
+		'rel_currency' => 'HKD',
+		'amount' => (float) 13.2,
+		'consultant' => 'frank',
+		'type' => 'renewal',
+		'remarks' => '4th Year Renewal<48th month>: 330*4%',
+		'give_bonus' => null,
+		'consultant_get_bonus' => null
+	)
+)
+###########################
